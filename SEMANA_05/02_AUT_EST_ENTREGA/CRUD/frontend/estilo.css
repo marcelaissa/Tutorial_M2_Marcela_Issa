@@ -1,0 +1,62 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;/* margem externa */
+    padding: 20px;/* espaço interno */
+    background-color: whitesmoke;/* cor de fundo */
+  }
+  
+  .container {
+    max-width: 800px;/* largura máxima do container */
+    margin: 0 auto;/* centraliza o container */
+  }
+  
+  h1 {
+    color: #333;/* cor do texto */
+    text-align: center;/* alinhamento horizontal */
+  }
+  .container {
+    text-align: center;/* alinhamento horizontal */
+  }
+  
+  .overlay-image {
+    position: left;
+    width: 200px;
+    height: 250px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  h2 {
+    color: #666;
+    margin-top: 30px;
+  }
+
+  a {
+    color: blue; 
+    text-decoration: underline;/* sublinhado */
+    font-weight: bold; /* negrito */
+    font-size: 16px; /* tamanho da fonte */
+  }
+  a:visited {
+    color: purple; /* Define a cor do texto do link visitado */
+  }
+  
+  a:hover {
+    color: red; /* Define a cor do texto do link quando o mouse está sobre ele */
+  }
+  
+  h3 {
+    color: #999;/* cor do texto */
+    margin-top: 15px;/* espaço acima do título */
+  }
+  
+  p {
+    margin-bottom: 10px;/* espaço abaixo do parágrafo */
+  }
+  
+  ul {
+    margin-top: 10px;/* espaço acima da lista */
+    padding-left: 20px;/* espaço à esquerda da lista */
+  }
+  
