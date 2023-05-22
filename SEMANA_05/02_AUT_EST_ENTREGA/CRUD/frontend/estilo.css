@@ -13,7 +13,9 @@ body {
   h1 {
     color: #333;/* cor do texto */
     text-align: center;/* alinhamento horizontal */
+    margin-bottom: 10px;
   }
+  
   .container {
     text-align: center;/* alinhamento horizontal */
   }
@@ -58,5 +60,31 @@ body {
   ul {
     margin-top: 10px;/* espaço acima da lista */
     padding-left: 20px;/* espaço à esquerda da lista */
+  }
+  
+ /*seletores para desktops*/
+  @media screen and (max-width: 1128px) {
+    #container2{ 
+       width: 70%;
+       background:rgb(255, 246, 193);
+    }
+  }
+  
+  /*seletores para tablets*/
+  @media screen and (max-width: 768px) {
+    #container2{ 
+       width: 50%;
+       background:rgb(244, 196, 244);
+    }
+  }
+  
+  /*seletores para celurares*/
+  @media screen and (max-width: 520px) {
+    #container2{ 
+       width: 100%;
+       background:rgb(202, 243, 255);
+         float: none;
+         height: auto;
+    }
   }
   
