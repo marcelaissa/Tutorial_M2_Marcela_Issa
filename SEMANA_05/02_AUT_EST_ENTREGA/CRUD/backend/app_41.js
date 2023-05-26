@@ -49,7 +49,7 @@ app.post('/Pessoa', urlencodedParser, (req, res) => {
 });
 
 // Monta o formulário para o update (é o U do CRUD - Update)
-app.get('/Pessoa', (req, res) => {
+app.get('/AtualizaPessoa', (req, res) => {
     res.statusCode = 200;
     res.setHeader('Access-Control-Allow-Origin', '*'); 
     sql = "SELECT * FROM Pessoa WHERE Id_Pessoa="+ req.query.Id_Pessoa;
@@ -65,7 +65,7 @@ app.get('/Pessoa', (req, res) => {
 });
 
 // Atualiza um registro (é o U do CRUD - Update)
-app.post('/Pessoa', urlencodedParser, (req, res) => {
+app.post('/AtualizaPessoa', urlencodedParser, (req, res) => {
     res.statusCode = 200;
     res.setHeader('Access-Control-Allow-Origin', '*'); 
     sql = "UPDATE Pessoa SET Nome='" + req.body.Nome + "', Foto = '" + req.body.Foto + "' WHERE Id_Pessoa ='" + req.body.Id_Pessoa + "'";
@@ -82,7 +82,7 @@ app.post('/Pessoa', urlencodedParser, (req, res) => {
 });
 
 // Exclui um registro (é o D do CRUD - Delete)
-app.get('/Pessoa', urlencodedParser, (req, res) => {
+app.get('/DeletePessoa', urlencodedParser, (req, res) => {
     res.statusCode = 200;
     res.setHeader('Access-Control-Allow-Origin', '*'); 
     sql = "DELETE FROM Pessoa WHERE Id_Pessoa='" + req.query.Id_Pessoa + "'";
