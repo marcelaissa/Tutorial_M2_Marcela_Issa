@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  },
+  "name": "semana7_parte_ii",
+  "description": "Essa etapa tem por objetivo demonstrar como integrar front e back-end e introduzir os conceitos relacionados a AJAX.\r O conceito principal do AJAX é efetuar as requisições de forma assíncrona, sem a dependência de recarregar a página inteira para gerar o conteúdo dinâmico.\r O tutorial é bem extenso e dividido em arquivos do back-end e front-end. No back-end temos todos os end points fazendo a composição do CRUD, e do lado do front-end duas partes, uma significando os testes envolvendo end points, e a outra apresentando as requisições do banco, em ambos os casos utilizando requisiçoes assíncronas.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}
